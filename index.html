@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[[Your Full Name]] | Academic Homepage</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 24px;
+            color: #222;
+            line-height: 1.65;
+        }
+        header {
+            display: flex;
+            gap: 32px;
+            align-items: flex-start;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+        .avatar img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .header-info h1 {
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .header-info .title {
+            color: #444;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+        .contact a {
+            color: #0055aa;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 36px;
+        }
+        h2 {
+            font-size: 22px;
+            font-weight: 500;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 6px;
+            margin-bottom: 16px;
+        }
+        ul {
+            padding-left: 22px;
+        }
+        li {
+            margin-bottom: 12px;
+        }
+        .pub-title {
+            font-weight: 500;
+        }
+        .pub-authors {
+            color: #444;
+        }
+        .pub-venue {
+            color: #666;
+            font-size: 0.94em;
+        }
+        .pub-link a {
+            color: #0055aa;
+            text-decoration: none;
+        }
+        .pub-link a:hover {
+            text-decoration: underline;
+        }
+        .chinese-bio {
+            margin-top:12px;
+            color:#333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="avatar">
+            <!-- 替换头像：把图片传到仓库，修改src路径 -->
+            <img src="profile.jpg" alt="[[Your Full Name]]">
+        </div>
+        <div class="header-info">
+            <h1>[[Your Full Name]]</h1>
+            <div class="title">PhD Candidate | [[Lab Name]]<br>[[University]]</div>
+            <div class="contact">
+                Email: <a href="mailto:[[your_email@shturl.]]">[[your_email@shturl.]]</a><br>
+                Google Scholar: <a href="https://scholar.google.com/citations?user=[[scholar_id]]">Google Scholar</a><br>
+                CV: <a href="cv.pdf">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a PhD candidate working at [[Lab Name]], [[University]]. My research focuses on human single-neuron activity during natural movie viewing, computational neuroscience, cognitive neuroscience, and machine learning for neural data analysis.
+            I am interested in how the human brain encodes semantic information under naturalistic stimuli, combining electrophysiology, behavior, and deep learning methods.
+        </p>
+        <p class="chinese-bio">
+            我是[[学校]][[实验室]]博士生。主要研究方向：自然电影刺激下人类单个神经元活动、计算神经科学、认知神经科学，以及神经信号机器学习分析。致力于结合电生理、行为学与深度学习，探索人脑如何在自然场景中编码语义信息。
+        </p>
+    </section>
+
+    <section>
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Human single-neuron recordings in naturalistic viewing paradigms</li>
+            <li>Computational analysis of electrophysiology (EEG, intracranial recordings)</li>
+            <li>Neural representation of semantic information</li>
+            <li>Machine learning / representation learning for neuroscience data</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+        <ul>
+            <!-- 示例论文，按需增删 -->
+            <li>
+                <div class="pub-title">Title of your paper 1</div>
+                <div class="pub-authors"><b>[[Your Name]]</b>, Co-author 1, Co-author 2, PI Name</div>
+                <div class="pub-venue">Journal / Conference Name, Year</div>
+                <div class="pub-link"><a href="#">PDF</a> | <a href="#">DOI</a></div>
+            </li>
+            <li>
+                <div class="pub-title">Title of your paper 2</div>
+                <div class="pub-authors">Co-author 1, <b>[[Your Name]]</b>, Co-author 2, PI Name</div>
+                <div class="pub-venue">Journal / Conference Name, Year</div>
+                <div class="pub-link"><a href="#">PDF</a> | <a href="#">DOI</a></div>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Presentations & Talks</h2>
+        <ul>
+            <li>Oral / Poster Presentation, Conference Name, Year</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Awards</h2>
+        <ul>
+            <li>Award Name, Year</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Teaching & Academic Service</h2>
+        <ul>
+            <li>Teaching Assistant, Course Name, [[University]], Year</li>
+        </ul>
+    </section>
+</body>
+</html>
